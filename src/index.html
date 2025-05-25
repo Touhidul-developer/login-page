@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="bg-white shadow px-4 py-3">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="text-2xl font-bold te">Adviser</div>
+            <div class="flex-1 mx-4">
+                <div class="relative max-w-md w-full">
+                    <input type="text" placeholder="Search..." class="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none"/>
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                        <i class="fas fa-search text-gray-400"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#" 
+                class="inline-block px-4 py-2 rounded-xl bg-gray-100">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+    
+
+<main>
+    <div class="bg-[url('./img/download.jpeg')] h-48 sm:h-40 w-full bg-no-repeat bg-cover"></div>
+
+    <div class="px-4 sm:px-8 flex flex-col sm:flex-row  sm:items-start space-y-4 sm:space-y-0 sm:space-x-4">
+        <img src="../src/img/box3-2.jpg" alt="" class="h-28 w-28 rounded-full border-4 border-gray-300 -mt-14">
+        <div class="w-full">
+            <div class="flex justify-between items-center">
+                <h2 class="text-xl sm:text-2xl font-bold">Kevin Smith</h2>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <p class="text-base sm:text-lg font-medium">Adviser and Consultant at Stripe Inc.</p>
+            <ul class="flex flex-wrap gap-3 pt-4 pb-4 text-sm">
+                <li class="flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Saint-petersburg</li>
+                <li class="flex items-center gap-1"><i class="fa-brands fa-facebook-f"></i> kevin somith</li>
+                <li class="flex items-center gap-1"><i class="fa-brands fa-linkedin-in"></i> green star</li>
+                <li class="flex items-center gap-1"><i class="fa-brands fa-twitter"></i> kevin somith54</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-4 bg-fuchsia-100 p-4 sm:p-8 gap-4">
+        <!-- Left Column -->
+        <div class="p-3 space-y-4">
+            <div>
+                <a class="flex items-center gap-2"><i class="fa-solid fa-phone"></i> +0789-98747</a>
+                <a class="flex pl-6">+0789-98747</a>
+            </div>
+            <a class="flex items-center gap-2"><i class="fa-regular fa-envelope"></i> kevinsomith@gmail.com</a>
+            <button class="bg-cyan-300 w-full p-2 rounded-full flex items-center justify-center gap-2">
+                <i class="fa-regular fa-comment"></i> Chat
+            </button>
+            <div class="flex items-center gap-2">
+                <div class="text-3xl font-bold">4.5</div>
+                <div>
+                    <span class="text-amber-300">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <p class="text-sm">192 reviews</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Center Image -->
+        <div class="col-span-1 sm:col-span-2">
+            <img src="../src/img/download.jpeg" class="w-full h-auto object-cover rounded-lg">
+        </div>
+
+        <!-- Right Image -->
+        <div>
+            <img src="../src/img/box3-2.jpg" class="w-full h-auto rounded-2xl">
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
