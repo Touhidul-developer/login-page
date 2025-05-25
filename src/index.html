@@ -7,13 +7,13 @@
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="container mx-auto">
     <nav class="bg-white shadow px-4 py-3">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
-            <div class="text-2xl font-bold te">Adviser</div>
+            <div class="text-2xl font-bold te">Adviser <a class="text-blue-400">:</a></div>
             <div class="flex-1 mx-4">
                 <div class="relative max-w-md w-full">
-                    <input type="text" placeholder="Search..." class="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none"/>
+                    <input type="text" placeholder="Search..." class="w-full pl-4 pr-10 py-2 border-l  border-gray-300 focus:outline-none"/>
                     <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                         <i class="fas fa-search text-gray-400"></i>
                     </div>
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <a href="#" 
-                class="inline-block px-4 py-2 rounded-xl bg-gray-100">Sign Up</a>
+                class="inline-block px-4 py-2 rounded-xl border-2 border-blue-200">Sign Up</a>
             </div>
         </div>
     </nav>
@@ -30,12 +30,12 @@
 <main>
     <div class="bg-[url('./img/download.jpeg')] h-48 sm:h-40 w-full bg-no-repeat bg-cover"></div>
 
-    <div class="px-4 sm:px-8 flex flex-col sm:flex-row  sm:items-start space-y-4 sm:space-y-0 sm:space-x-4">
+    <div class="px-8 sm:px-8 flex flex-col sm:flex-row  sm:items-start space-y-4 sm:space-y-0 sm:space-x-4">
         <img src="../src/img/box3-2.jpg" alt="" class="h-28 w-28 rounded-full border-4 border-gray-300 -mt-14">
         <div class="w-full">
             <div class="flex justify-between items-center">
                 <h2 class="text-xl sm:text-2xl font-bold">Kevin Smith</h2>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis p-2 bg-gray-100 rounded-full"></i>
             </div>
             <p class="text-base sm:text-lg font-medium">Adviser and Consultant at Stripe Inc.</p>
             <ul class="flex flex-wrap gap-3 pt-4 pb-4 text-sm">
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-4 bg-fuchsia-100 p-4 sm:p-8 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-4 bg-fuchsia-100 px-12 sm:p-8 gap-4">
         <!-- Left Column -->
         <div class="p-3 space-y-4">
             <div>
@@ -55,7 +55,7 @@
                 <a class="flex pl-6">+0789-98747</a>
             </div>
             <a class="flex items-center gap-2"><i class="fa-regular fa-envelope"></i> kevinsomith@gmail.com</a>
-            <button class="bg-cyan-300 w-full p-2 rounded-full flex items-center justify-center gap-2">
+            <button class="bg-cyan-300 text-white w-full p-3 rounded-full flex items-center justify-center gap-2">
                 <i class="fa-regular fa-comment"></i> Chat
             </button>
             <div class="flex items-center gap-2">
